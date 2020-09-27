@@ -27,19 +27,19 @@
 - [x] iMessage, FaceTime, App Store
 - [x] HDMI(only video)
 - [x] Keyboard and Trackpad(two finger vertical swipes)
+- [x] DRM(Works with Google Chrome. Tested with Prime Video and Netflix.)
 
 ## What's not working
 
-- [ ] Multitouch gestures(only work on Windows with a proprietary driver)
+- [ ] Multitouch gestures for trackpad(only work on Windows with a proprietary driver)
 - [ ] No audio passthrough through HDMI
 
 ## Untested
 
 * miniDP
-* DRM Support
 * Card Reader
 
 ## Current configuration
 
-* macOS: Catalina 10.15.5
+* macOS: Catalina 10.15.6
 * OpenCore: 0.5.8
