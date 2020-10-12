@@ -12,27 +12,26 @@
 * Fingerprint Reader: No
 * Camera: 1920x1080 FHD Webcam
 * Keyboard: Backlit Keyboard
-* Trackpad: ALPS V7 Touchpad
+* Trackpad: ALPS Touchpad
 
 ## What's Working
 
 - [x] Intel HD 520 Graphics `incuding graphics acceleration`
 - [x] All USB ports
 - [x] Internal camera
-- [x] WiFi `using itlwm and HeliPort`
-- [x] Bluetooth `using IntelBluetoothFirmware and IntelBluetoothInjector`
+- [x] WiFi using [AirportItlwm](https://github.com/OpenIntelWireless/itlwm)
+- [x] Bluetooth using [IntelBluetoothFirmware and IntelBluetoothInjector](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 - [x] Shutdown / Reboot / Sleep / Wake
 - [x] Speakers and headphones jack
 - [x] Intel Gigabit Ethernet
 - [x] iMessage, FaceTime, App Store
-- [x] HDMI(only video)
+- [x] HDMI(with audio passthrough)
 - [x] Keyboard and Trackpad(two finger vertical swipes)
 - [x] DRM(Works with Google Chrome. Tested with Prime Video and Netflix.)
 
 ## What's not working
 
-- [ ] Multitouch gestures for trackpad(only work on Windows with a proprietary driver)
-- [ ] No audio passthrough through HDMI
+- [ ] Multitouch gestures for ALPS touchpad.
 
 ## Untested
 
@@ -41,5 +40,5 @@
 
 ## Current configuration
 
-* macOS: Catalina 10.15.6
-* OpenCore: 0.5.8
+* macOS: Catalina 10.15.7
+* OpenCore: 0.6.2
