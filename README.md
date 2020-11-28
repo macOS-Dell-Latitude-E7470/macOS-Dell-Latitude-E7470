@@ -41,4 +41,4 @@
 ## Current configuration
 
 * macOS: Catalina 10.15.7
-* OpenCore: 0.6.2
+* OpenCore: 0.6.3
