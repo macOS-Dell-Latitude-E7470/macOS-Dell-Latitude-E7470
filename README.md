@@ -1,4 +1,4 @@
-# Dell Latitude E7470 macOS Catalina (OpenCore)
+# Dell Latitude E7470 macOS Big Sur (OpenCore)
 
 ## My hardware
 
@@ -40,5 +40,9 @@
 
 ## Current configuration
 
-* macOS: Catalina 10.15.7
+* macOS: Big Sur 11.0.1
 * OpenCore: 0.6.3
+
+## Update Instructions
+
+To Update to Big Sur from Catalina, just replace the previous Catalina EFI with this one and update normally.
