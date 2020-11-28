@@ -1,5 +1,9 @@
 # Dell Latitude E7470 macOS Catalina (OpenCore)
 
+## Note
+
+This EFI will no longer be updated for Catalina. It is recommended to switch to Big Sur for it's EFI updates.
+
 ## My hardware
 
 * Processor: Intel Core i7-6600U
