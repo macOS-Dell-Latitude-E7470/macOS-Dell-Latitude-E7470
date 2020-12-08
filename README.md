@@ -42,11 +42,12 @@
 ## Current configuration
 
 * macOS: Big Sur 11.0.1
-* OpenCore: 0.6.3
+* OpenCore: 0.6.4
 
 ## Update Instructions
 
-To Update to Big Sur from Catalina, just replace the previous Catalina EFI with this one and update normally.
+* To Update to Big Sur from Catalina, just replace the previous Catalina EFI with this one and update normally.
+* To update from on older version of EFI to the current one, download this repository and replace your EFI folder with this one.(Make sure you use your own SMBIOS, the included one is only for reference.)
 
 ## Installation
 
@@ -73,5 +74,3 @@ Follow the [guide on the OpenCore documentation](https://dortania.github.io/Open
 ## Important Notes
 
 You need to plug in the installation USB created previously everytime you start macOS after shutdown. If you want to boot without the USB, follow [this guide by OpenCore](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html#grabbing-opencore-off-the-usb).
-
-
