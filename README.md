@@ -28,7 +28,6 @@
 - [x] HDMI(with audio passthrough)
 - [x] Keyboard and Trackpad(two finger vertical swipes)
 - [x] DRM(Works with Google Chrome. Tested with Prime Video and Netflix.)
-  - There are rare short freezes when playing videos (See [#7](https://github.com/adityabakare/macOS-Dell-Latitude-E7470/issues/7) for updates)
 
 ## What's not working
 
