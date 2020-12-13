@@ -66,7 +66,7 @@ Follow the [guide on the OpenCore documentation](https://dortania.github.io/Open
 ### Boot and Install macOS
 
 * Plug in the USB we created to your Dell computer
-* Press the Power button to turn on our computer (if you used the Dell to create the USB, shutdown the computere first)
+* Press the Power button to turn on our computer (if you used the Dell to create the USB, shutdown the computer first)
 * Wait and we will see the Apple icon on a black screen with a progress bar at the bottom
 * Then, we will see a menu with four options. Make sure select `Disk Utility` to partition your disk appropriately and format the partition for installing macOS into `APFS`. If you are dual booting with other operating systems, an easier way would be to partition the drive beforehand as some formats like NTFS are readonly on macOS.
 * Follow the installation steps and configure the preferences to your liking
