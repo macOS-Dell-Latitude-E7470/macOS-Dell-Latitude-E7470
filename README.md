@@ -26,6 +26,7 @@
 - [x] Intel Gigabit Ethernet
 - [x] iMessage, FaceTime, App Store
 - [x] HDMI(with audio passthrough)
+- [x] Dual external displays through onboard HDMI and Mini DisplayPort
 - [x] Keyboard and Trackpad(two finger vertical swipes)
 - [x] DRM(Works with Google Chrome. Tested with Prime Video and Netflix.)
 
