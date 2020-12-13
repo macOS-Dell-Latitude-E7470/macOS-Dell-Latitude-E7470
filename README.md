@@ -28,6 +28,7 @@
 - [x] HDMI(with audio passthrough)
 - [x] Dual external displays through onboard HDMI and Mini DisplayPort
 - [x] Keyboard and Trackpad(two finger vertical swipes)
+- [x] Wacom tablets (Supports all functions provided by the [driver](https://www.wacom.com/en-us/support/product-support/drivers) except that Wacom Desktop Center can't recognize the tablet. Tested with Wacom One.)
 - [x] DRM(Works with Google Chrome. Tested with Prime Video and Netflix.)
 
 ## What's not working
