@@ -36,7 +36,6 @@
 
 ## Untested
 
-* miniDP
 * Card Reader
 
 ## Current configuration
