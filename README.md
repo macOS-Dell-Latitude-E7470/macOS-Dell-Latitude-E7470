@@ -73,7 +73,7 @@
 ## Current configuration
 
 - macOS: Big Sur 11.1
-- OpenCore: 0.6.4
+- OpenCore: 0.6.5
 
 ## Installation
 
