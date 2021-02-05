@@ -1,6 +1,12 @@
 # Dell Latitude E7470 macOS Big Sur (OpenCore)
 
-<img align="right" src="https://imgur.com/25u1lIk.jpg" alt="Lenovo Thinkpad T460s macOS Hackintosh OpenCore" width="300">
+## Important [OpenCore 0.6.6 update]
+
+* There are some changes that need to be followed to update to OpenCore 0.6.6 from previous versions(OpenCore 0.6.5 and below)
+
+* Please read [this Reddit Post](https://www.reddit.com/r/hackintosh/comments/lb2456/psa_opencore_066_will_require_you_to_jump_through/) and [this page](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6) from Dortania guide before proceeding.
+
+<img align="right" src="https://imgur.com/25u1lIk.jpg" width="300">
 
 ## Introduction
 
@@ -73,7 +79,7 @@
 ## Current configuration
 
 - macOS: Big Sur 11.1
-- OpenCore: 0.6.5
+- OpenCore: 0.6.6
 
 ## Installation
 
