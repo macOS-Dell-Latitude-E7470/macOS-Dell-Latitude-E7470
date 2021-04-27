@@ -1,8 +1,8 @@
 # Dell Latitude E7470 macOS Big Sur (OpenCore)
 
-## Important [OpenCore 0.6.6 update]
+## Important [OpenCore 0.6.6 update and newer]
 
-* There are some changes that need to be followed to update to OpenCore 0.6.6 from previous versions(OpenCore 0.6.5 and below)
+* There are some changes that need to be followed to update to OpenCore 0.6.6 and newer from previous versions(OpenCore 0.6.5 and below)
 
 * Please read [this Reddit Post](https://www.reddit.com/r/hackintosh/comments/lb2456/psa_opencore_066_will_require_you_to_jump_through/) and [this page](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6) from Dortania guide before proceeding.
 
@@ -78,8 +78,8 @@
 
 ## Current configuration
 
-- macOS: Big Sur 11.1
-- OpenCore: 0.6.6
+- macOS: Big Sur 11.2.3
+- OpenCore: 0.6.8
 
 ## Installation
 
