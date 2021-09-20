@@ -1,10 +1,26 @@
 # Dell Latitude E7470 macOS Big Sur (OpenCore)
 
-## Important [OpenCore 0.6.6 update and newer]
+## Important Notes for Latest release [OpenCore 0.7.4]
+You may encounter a keyboard mapping issue where your tilde key (~/`) is wrongly mapped to (§/±). The solution is simple, you can remap the key using native MacOS commands as follows:
+```
+hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000064,"HIDKeyboardModifierMappingDst":0x700000035}]}'
+```
+If this problem is resolved in the next release, you can remove any remappings back to initial just pass an empty array:
+```
+hidutil property --set '{"UserKeyMapping":[]}'
+```
+Credit: https://apple.stackexchange.com/a/374074/398222
+<details>
+<summary>
+<strong>Important Notes for [OpenCore 0.6.6 update and newer]</strong>
+<br/>
+</summary>
 
 * There are some changes that need to be followed to update to OpenCore 0.6.6 and newer from previous versions(OpenCore 0.6.5 and below)
 
 * Please read [this Reddit Post](https://www.reddit.com/r/hackintosh/comments/lb2456/psa_opencore_066_will_require_you_to_jump_through/) and [this page](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6) from Dortania guide before proceeding.
+
+</details>
 
 <img align="right" src="https://imgur.com/25u1lIk.jpg" width="300">
 
