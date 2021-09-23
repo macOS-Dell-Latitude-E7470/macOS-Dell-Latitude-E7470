@@ -12,6 +12,29 @@ hidutil property --set '{"UserKeyMapping":[]}'
 Credit: https://apple.stackexchange.com/a/374074/398222
 <details>
 <summary>
+<strong>Auto remap keys every time you log in</strong>
+<br/>
+</summary>
+
+* Start Automator.app;
+* Select "Application";
+* Click "Show library" in the toolbar (if hidden);
+* Add "Run shell script" (from the Actions/Utilities);
+* Copy-and-paste the following script into the window:
+```
+hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000064,"HIDKeyboardModifierMappingDst":0x700000035}]}'
+```
+* Test it;
+* Save it somewhere: a file called your_name.app will be created);
+* Depending your MacOSX version:
+    * Old versions: Go to System Preferences → Accounts → Login items, or
+    * New version: Go to System Preferences → Users and Groups → Login items (top right);
+* Add this newly-created app;
+
+Credit: https://superuser.com/a/465506/1046656
+</details>
+<details>
+<summary>
 <strong>Important Notes for [OpenCore 0.6.6 update and newer]</strong>
 <br/>
 </summary>
