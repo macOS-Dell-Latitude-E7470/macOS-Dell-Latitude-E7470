@@ -190,6 +190,10 @@ where `REL` means a RELEASE version of OC, `074` means version 0.7.4, and `2021-
 </br>
 
 Follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) to automatically update OpenCore and all kexts to the latest version.
+
+### Important Note
+> Do NOT upgrade the `IntelBluetoothFirmware.kext` and `IntelBluetoothInjector.kext`. The newest version does NOT work on Latitude E7470.
+
 I clipped the relevant parts of the guide here for reference:
 Thanks to OCAT, updating and maintaining OpenCore basically boils the update process down to 3 major steps: Synchronizing the config.plist, Updating OpenCore and Drivers, Updating Kexts and Resources. That's it.
 
