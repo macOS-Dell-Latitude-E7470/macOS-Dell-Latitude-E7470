@@ -1,3 +1,6 @@
+## Update (December 2021)
+I can no longer maintain this repository, mainly due to lack of time and hardware switch. Thank you everyone who helped me by contributing to this repository.
+
 # Dell Latitude E7470 macOS Big Sur (OpenCore)
 
 ## Important Notes for Latest release [OpenCore 0.7.4]
